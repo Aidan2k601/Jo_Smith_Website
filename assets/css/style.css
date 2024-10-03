@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.main_container {
+    position: relative;
+}
+
+.background_image {
+    width: 100%;
+    height: 100%;
+}
+
+.nav_container {
+    width: 100%;
+    height: 8rem;
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+}
+
+.nav_container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav_container ul li a {
+    letter-spacing: 0.4em;
+    font-size: 1.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(78, 78, 78);
+}
+
+.nav_container ul li a:hover {
+    text-decoration: underline 2px rgb(254, 187, 158);
+}
+
+.content_wrapperone {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    place-content: center;
+}
+
+.content_one {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 212, 193);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8rem 0rem;
+    margin: 5rem 0rem;
+    justify-content: center;
+}
+
+.content_one img {
+    height: 450px;
+    width: auto;
+    border: 3px solid black;
+    box-shadow: black 5px 5px 25px;
+    margin-right: 4rem;
+}
+
+.content_one p {
+    width: 40rem;
+    font-size: 1.8em;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+.image_grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.image_grid img {
+    height: 250px;
+    width: auto;
+    border: 2px solid black;
+    box-shadow: black 5px 5px 10px;
+}
+
+.row_one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.row_one img {
+    margin: 0rem 2rem;
+}
+
+.row_two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.row_two img {
+    margin: 0rem 2rem;
+}
+
+.row_three {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.row_three img {
+    margin: 0rem 2rem;
+}
+
+.content_wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.about_section {
+    height: 100%;
+    width: 70%;
+    border-radius: 2rem;
+    background-color: rgb(255, 212, 193);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0rem;
+    padding: 5rem 0rem;
+}
+
+.about_section img {
+    height: 550px;
+    margin-right: 5rem;
+    border: 2px solid black;
+    box-shadow: black 5px 5px 10px;
+}
+
+.about_section p {
+    width: 18em;
+    font-size: 1.2em;
+    margin-left: 5rem;
+    word-spacing: 0.1em;
+}
+
+.contact_btn {
+    width: 100%;
+    height: 100%;
+    margin: 5rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    background: rgb(255, 212, 193);
+    font-size: 2em;
+    padding: 1.5rem 3rem;
+    border-radius: 20rem;
+    border: 0px;
+    cursor: pointer;
+    box-shadow: black 2px 2px 10px;
+}
+
+.footer_container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(160 187 113);
+    padding: 10rem 0rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    color: #976a36;
+}
+
+.two_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer_contentone {
+    width: 55rem;
+    color: white;
+}
+
+#mini_title {
+    font-size: 2em;
+    color: #976a36;
+}
+
+#mini_para {
+    color: #4e4e4e;
+    font-size: 1.5em;
+    width: 75%;
+}
+
+.footer_contenttwo {
+    display: flex;
+    flex-direction: column;
+}
+
+#quicklinks {
+    font-size: 2em;
+}
+
+.footer_contenttwo img {
+    height: 5rem;
+    margin-right: 1.5rem;
+}
+
+.footer_contenttwo li {
+    margin: 2rem 0rem;
+    list-style-type: none;
+}
+
+.footer_contenttwo a {
+    font-size: 1.8em;
+    color: #4e4e4e; 
+    text-decoration: none;
+}
+
+.credits {
+    width: 100%;
+    text-align: center;
+}
